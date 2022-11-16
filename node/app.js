@@ -2,7 +2,7 @@ Stream = require("node-rtsp-stream");
 stream = new Stream({
   name: "Bunny",
   // streamUrl: "rtsp://YOUR_IP:PORT",
-  streamUrl: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov",
+  streamUrl: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4",
   wsPort: 6789,
   ffmpegOptions: { // options ffmpeg flags
     "-f": "mpegts", // output file format.
